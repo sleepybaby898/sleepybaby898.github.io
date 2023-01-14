@@ -1,0 +1,21 @@
+/* me and my homies have neither a positive or negative opinion on css!! */
+
+:root {
+    color-scheme: dark;
+}
+
+/* no light theme */
+
+[data-theme="dark"] {
+    --background: hsl(240, 4%, 5%);
+    --background-hex: #0c0c0d;
+    --background-light: hsl(240, 4%, 13%);
+    --background-dark: hsl(240, 4%, 2%);
+    --background-slight: hsl(240, 4%, 7%);
+
+    --text: hsl(0, 0%, 78%);
+    --text-hex: #c7c7c7;
+    --text-light: hsl(0, 0%, 100%);
+    --text-dark: hsl(0, 0%, 69%);
+    --text-darker: hsl(0, 0%, 50%);
+}
