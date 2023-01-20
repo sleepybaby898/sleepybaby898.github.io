@@ -3,36 +3,129 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>sleepy</title>
-    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
-
     <meta property="og:title" content="sleepy" />
-    <meta property="og:description" content="welcomeit is my webs ite" />
+    <meta property="og:description" content="free tate!!" />
     <meta property="og:url" content="https://sleepybaby898.github.io" />
     <meta property="og:image" content="./favicon.png" />
-    <meta name="theme-color" content="#0c0c0d" />
-
-    <link rel="stylesheet" href="slepy.css" />
   </head>
 
   <body>
-    <br><br><br> <!-- very nice -->
-    <div class="cat"></div>
     <h1>sleepy</h1>
-    <p>absolutely mindblowing website</p>
-    <h2>about</h2>
-    <a href="https://github.com/sleepybaby898">- my github</a>
-    <p>- python and ts are cool</p> <!-- very nice -->
-    <h3>contacts</h3>
-    - discord is sleepybaby#2178<br>
-    - steam is sleepy<br>
-    <p class="footer">- basically everything else is sleepy, sleepybaby898 or sleepy</p>
-
-    <br><br><br><br>
-    <a class="footer" href="https://github.com/sleepybaby898/sleepybaby898.github.io">source</a>
-    <p class="footer">&copy; sleepybaby 2023</p>
+    <p>
+        i sometimes like to do stuff
+        <br />
+    </p>
+    <h2>projects</h2>
+    <ul id="wahoo">
+        <li>
+            <a href="https://github.com/sleepybaby898/python-chatserver">
+                sleepy/<strong>python-chatserver</strong>
+            </a>
+            <div>
+                an itsy bitsy chat server written in python using flask and requests (~60 lines sloc!)
+            </div>
+        </li>
+        <li>
+            <a href="https://github.com/sleepybaby898/lockdown">
+                sleepy/<b>lockdown</b>
+            </a>
+            <div>
+                an insecure (but fast!) self-hosted dashboard for controlling basic home-server tasks
+            </div>
+        </li>
+        <li>
+            <a href="https://github.com/sleepybaby898">
+                sleepy/<b>tsunami</b>
+            </a>
+            <div>
+                a currently private TIDAL client mod (still in early dev stages)
+            </div>
+        </li>
+    </ul>
+    <h2>contact me</h2>
+    <ul id="contact">
+        <li>
+            <a href="https://discord.com">
+                <b>discord</b>
+            </a>
+            <div>
+                sleepybaby#2176
+            </div>
+        </li>
+        <li>
+            <a href="https://github.com/sleepybaby898">
+                <b>git</b>
+            </a>
+            <div>
+                sleepybaby898
+            </div>
+        </li>
+    </ul>
   </body>
+
+  <footer>
+    <span>
+        <a href="https://svelte.dev">
+            svelte
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/sleepybaby898">
+            &copy 2023 sleepy
+        </a>
+    </span>
+    <span>
+        <a href="https://github.com/sleepybaby898/sleepybaby898.github.io">
+            source code
+        </a>
+    </span>
+</footer>
+
+  <style>
+    /* bg = #151515 */
+    /* text = #fcfcfc */
+    /* accent: #7899d4 */
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Sans+Mono&family=Noto+Sans+Mono&family=Noto+Sans:ital,wgth@0,400;0,700;1,400&display=swap');
+
+    body {
+        width: calc(100vw - 40px);
+        max-width: 1200px;
+        margin: auto;
+        margin-bottom: 40pt;
+    }
+
+
+    body {
+        background: #151515;
+        color: #fcfcfc;
+
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    a {
+        color: #7899d4;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    h1, h2, h3, h4 {
+        font-family: "Fira Code", monospace;
+        border-bottom: 2px solid #7899d4;
+        width: fit-content;
+    }
+    footer a {
+        color: #e0e0e0;
+        font-family: "Fira Code", monospace;
+    }
+    footer > *:nth-last-child(n+2)::after {
+        content: " - ";
+        color: #7899d4;
+        font-family: "Fira Code"; 
+    }
+    footer {
+        text-align: center;
+    }
+</style>
 </html>
