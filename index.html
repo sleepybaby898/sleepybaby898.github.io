@@ -1,131 +1,41 @@
-<!-- me and my homies hate html!! -->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <title>sleepy</title>
-    <meta property="og:title" content="sleepy" />
-    <meta property="og:description" content="free tate!!" />
-    <meta property="og:url" content="https://sleepybaby898.github.io" />
-    <meta property="og:image" content="./favicon.png" />
+      <title>sleepy</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <meta name="theme-color" content="#fff">
+      <meta name="robots" content="noindex">
+      <base target="_blank">
+      <link rel="stylesheet" href="css/rah.css">
+      <link rel='shortcut icon' type='image/png' href='favicon.png' />
   </head>
 
   <body>
-    <h1>sleepy</h1>
-    <p>
-        i sometimes like to do stuff
-        <br />
-    </p>
-    <h2>projects</h2>
-    <ul id="wahoo">
-        <li>
-            <a href="https://github.com/sleepybaby898/python-chatserver">
-                sleepy/<strong>python-chatserver</strong>
-            </a>
-            <div>
-                an itsy bitsy chat server written in python using flask and requests (~60 lines sloc!)
-            </div>
-        </li>
-        <li>
-            <a href="https://github.com/sleepybaby898/lockdown">
-                sleepy/<b>lockdown</b>
-            </a>
-            <div>
-                an insecure (but fast!) self-hosted dashboard for controlling basic home-server tasks
-            </div>
-        </li>
-        <li>
-            <a href="https://github.com/sleepybaby898">
-                sleepy/<b>tsunami</b>
-            </a>
-            <div>
-                a currently private TIDAL client mod (still in early dev stages)
-            </div>
-        </li>
-    </ul>
-    <h2>contact me</h2>
-    <ul id="contact">
-        <li>
-            <a href="https://discord.com">
-                <b>discord</b>
-            </a>
-            <div>
-                sleepybaby#2176
-            </div>
-        </li>
-        <li>
-            <a href="https://github.com/sleepybaby898">
-                <b>git</b>
-            </a>
-            <div>
-                sleepybaby898
-            </div>
-        </li>
-    </ul>
-  </body>
-
-  <footer>
-    <span>
-        <a href="https://svelte.dev">
-            svelte
-        </a>
-    </span>
-    <span>
-        <a href="https://github.com/sleepybaby898">
-            &copy 2023 sleepy
-        </a>
-    </span>
-    <span>
-        <a href="https://github.com/sleepybaby898/sleepybaby898.github.io">
-            source code
-        </a>
-    </span>
-</footer>
-
-  <style>
-    /* bg = #151515 */
-    /* text = #fcfcfc */
-    /* accent: #7899d4 */
-    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Noto+Sans+Mono&family=Noto+Sans+Mono&family=Noto+Sans:ital,wgth@0,400;0,700;1,400&display=swap');
-
-    body {
-        width: calc(100vw - 40px);
-        max-width: 1200px;
-        margin: auto;
-        margin-bottom: 40pt;
-    }
-
-
-    body {
-        background: #151515;
-        color: #fcfcfc;
-
-        font-family: "Noto Sans", sans-serif;
-    }
-
-    a {
-        color: #7899d4;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    h1, h2, h3, h4 {
-        font-family: "Fira Code", monospace;
-        border-bottom: 2px solid #7899d4;
-        width: fit-content;
-    }
-    footer a {
-        color: #e0e0e0;
-        font-family: "Fira Code", monospace;
-    }
-    footer > *:nth-last-child(n+2)::after {
-        content: " - ";
-        color: #7899d4;
-        font-family: "Fira Code"; 
-    }
-    footer {
-        text-align: center;
-    }
-</style>
+      <span class="header">sleepy</span>
+      <div class="info">
+          <input id="mail" readonly>
+          <span>
+            <code>social:</code>
+            <a href="https://twitter.com/realsleepybaby">twitter</a> /
+            <a href="https://www.instagram.com/sleepybaby898/">instagram ??</a>
+          </span>
+          <span>
+            <code>music:</code>
+            <a href="https://last.fm/user/sleepybaby898">last.fm</a> /
+            <a href="https://tidal.com/browse/user/190098975">TIDAL</a>
+          </span>
+          <span>
+              <code>code:</code>
+              <a href="https://github.com/sleepybaby898">github</a> /
+              <a href="https://github.com/sleepybaby898/sleepybaby898.github.io">src code</a>
+            </span>
+          <span>
+            <code>discord:</code>
+            <a href="https://discord.com/users/543692940573278208/" target="_blank">sleepybaby#2178</a>
+          </span>
+      </div>
+      <br/>
+    </body>
+  <script src="js/index.js"></script>
 </html>

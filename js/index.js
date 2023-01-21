@@ -1,0 +1,1 @@
+const input = document.querySelector('input'); input.value = "i love eating glue"; // lol just felt like it
