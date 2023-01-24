@@ -2,15 +2,19 @@
 /* text = #fcfcfc */
 /* accent: #7899d4 */
 
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Rubik&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Comfortaa', cursive;
+}
+
 body, html {
-    margin: 40px;
-    margin-top: 50px;
     color: #fcfcfc;
     background-color: #151515;
-    font-family: monospace;
-    font-size: 14px;
-    line-height: 20px;
-    text-size-adjust: 100%;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 40pt;
 }
   
 a, a:visited {
@@ -22,46 +26,30 @@ a:hover {
     font-weight: bolder;
     transition: 130ms linear;
 }
-  
-input, input:focus {
-    border: none;
-    font-family: monospace;
-    font-size: 14px;
-    color: #d9d9d9;
+
+p { font-family: 'Rubik', sans-serif; }
+
+button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    color: #fcfcfc;
     background-color: #151515;
     outline: none;
+    border: 3px solid #7899d4;
+    padding: 5px;
 }
-  
-::selection {
-    background: rgba(255, 255, 255, 1);
-    padding: 3px;
+
+button:hover {
+    color: #fcfcfc;
+    background-color: #7899d4;
 }
-  
-hr {
-    width: 15%;
-    margin-left: 0px;
+
+footer a, a:visited {
+    color: #8f8f8f;
 }
-  
-@keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+
+footer {
+    font-size: 12px;
+    padding: 45px;
+    color: #8f8f8f
 }
-  
-code, .header {
-    user-select: none;
-}
-  
-.header {
-    font-weight: bold;
-}
-  
-.info {
-    padding-left: 10px;
-    margin-left: 10px;
-    border-left: 1px solid rgba(255, 255, 255, .4);
-}
-  
-.info span {
-    display: block;
-}
-  
