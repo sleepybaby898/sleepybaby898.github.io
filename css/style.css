@@ -152,7 +152,6 @@ button:hover {
     font-size: 48px;
 }
 .skill-grid {
-    background-color: #151515;
     padding: 0.25rem;
     border-radius: 1rem;
 }
@@ -185,5 +184,12 @@ button:hover {
     }
     #social {
         width: 50%;
+    }
+}
+
+@media (max-width: 1920px) {
+    #skills__content {
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
