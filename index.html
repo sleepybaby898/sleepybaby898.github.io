@@ -1,59 +1,31 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>sleepy</title>
-        <meta />
-        <meta name="description" content="free top g" />
-        <meta name="title" content="sleepy" />
-        <meta name="author" content="sleepy" />
-        <meta property="og:title" content="sleepy" />
-        <meta property="og:description" content="free top g" />
-        <meta name="theme-color" content="#addff0" />
-        <link rel="stylesheet" href="css/fontawesome.css" />
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel='shortcut icon' type='image/png' href='/favicon.png' />
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Rubik&display=swap" rel="stylesheet">
-        <style>
-            body, html {
-                font-family: 'Rubik', sans-serif;
-            }
-            h1,h2,h3,h4,h5,h6 {
-                font-family: 'Comfortaa', cursive;
-            }
-        </style>
-    </head>
-    <body class="bg-[url('/img/pattern3.svg')]", style="background-color: #303446">
-        <div class="relative px-6 lg:px-8">
-            <div class="py-32 mx-auto max-w-2x1 sm:py-48 lg:py-12">
-                <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                    <div class="text-center">
-                        <h1 class="text-4xl text-white sm:text-6x1">
-                            sleepy!
-                        </h1>
-                        <p class="mt-6 text-lg leading-8 text-gray-200">
-                            i write software that never works
-                        </p>
-                        <div class="flex gap-x-6 justify-center items-center mt-10">
-                            <a 
-                              href="/contact"
-                              class="text-base font-semibold leading-7 text-yellow-200"
-                            >contact <span aria-hidden="true">☏</span></a>
-                            <a
-                              href="/about"
-                              class="text-base font-semibold leading-7 text-orange-200"
-                              >about me <span aria-hidden="true">♪</span></a>
-                            <a
-                              href="/snippets"
-                              class="text-base font-semibold leading-7 text-red-300"
-                              >snippets <span aria-hidden="true">★</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- :pensive: -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sleepy</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel='shortcut icon' type='image/png' href='/favicon.png' />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+        <nav style="font-family: 'Roboto Mono', monospace; color: #f0f0f0;">
+            <h2 class="logo">sleepy</h2>
+            <button onclick="location.href = 'index.html'">home</button>
+        </nav>
+    </div>
+    <div id="menu">
+        <div id="menu-items">
+            <a href="/social" class="menu-item">social</a>
+            <a href="/about" class="menu-item">about me</a>
+            <a href="/snippets" class="menu-item">snippets</a>
         </div>
-    </body>
+        <div id="menu-background-pattern"></div>
+    </div>
+</body>
 </html>
