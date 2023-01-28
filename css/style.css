@@ -58,7 +58,7 @@ button:hover {
 }
 
 #menu {
-    height: 100vh;
+    height: 75vh;
     display: flex;
     align-items: center;
 }
