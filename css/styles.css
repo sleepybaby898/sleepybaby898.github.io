@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --heading-font: Poppins, sans-serif;
+    --primary-font: Inter, sans-serif;
+    --secondary-font: "Space Mono", monospace;
+    --text-secondary-color: #8c8ca8;
+    --purple: rgb(123, 31, 162);
+    --violet: rgb(103, 58, 183);
+    --pink: rgb(244, 143, 177);
+    --bg-color: #010005;
+    --text-color: #f9f9f9;
+    --accent-color: #7899d4;
+    --seperator-color: rgb(17, 18, 38);
+    --secondary-bg: #272727;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: var(--primary-font);
+    color: var(--text-color);
+    font-weight: 600
+}
+
+main {
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-size: clamp(2em, 2vw, 4em);
+    font-weight: 600;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: clamp(1.75em, 1.25vw, 3em);
+}
+
+p {
+    font-family: var(--secondary-font);
+    color: var(--text-secondary-color);
+}
+ 
+button {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    background-color: #09080D;
+    color: var(--text-secondary-color);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    font-size: 12px;
+    padding-left: 1%;
+}
+
+.iconcode {
+    font-size: 12px;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: calc(100% = 20px);
+}
+
+.card {
+    border: 1.5px solid rgba(17, 18, 38, 1);
+    border-radius: 10px;
+    height: 250px;
+    position: relative;
+    width: 500px;
+    padding-left: 3%;
+    transition: .4s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.bold {
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
+
+.seperator {
+    height: 0%;
+    width: 0%;
+    border-bottom: 1.5px solid rgba(17, 18, 38, 1);
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--text-secondary-color);
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--accent-color);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+  }
+
+.magic-text {
+    background-image: linear-gradient(61deg, var(--purple), var(--violet), var(--pink));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: 700;
+}

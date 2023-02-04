@@ -10,27 +10,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sleepy</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="./js/index.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel='shortcut icon' type='image/png' href='/favicon.png' />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/ab4c86f542.js" crossorigin="anonymous"></script>
+    <link rel='shortcut icon' type='image/png' href='static/favicon.png' />
 </head>
 <body>
-    <div id="nav">
-        <nav style="font-family: 'Roboto Mono', monospace; color: #f0f0f0;">
-            <h2 class="logo">sleepy</h2>
-            <button onclick="location.href = 'index.html'">home</button>
-        </nav>
-    </div>
-    <div id="menu">
-        <div id="menu-items">
-            <a href="/social" class="menu-item">social</a>
-            <a href="/about" class="menu-item">about me</a>
-            <a href="/snippets" class="menu-item">snippets</a>
+    <main>
+        <h1>hey, i'm 
+            <span class="magic-text">joseph</span>
+        </h1>
+        <p id="typewriter"></p>
+        <h2>my work</h2>
+        <div id="cards">
+            <div class="card">
+                <h3>sleepybaby898/python-chatserver</h3>
+                <a style="font-family: Inter; font-weight: 500" href="https://github.com/sleepybaby898/python-chatserver">github.com/chatserver <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                <p style="font-family: Inter; font-weight: 500; padding-right: 3%">an itsy bitsy chat server (~60 lines sloc), fully anonymous and includes chat commands.</p>
+                <a href="https://github.com/sleepybaby898/python-chatserver"><button>source code <i class="fa-solid fa-code iconcode"></i></button></a>
+            </div>
+            <div class="card">
+                <h3>sleepybaby898/lockdown</h3>
+                <a style="font-family: Inter; font-weight: 500" href="https://github.com/sleepybaby898/lockdown">github.com/lockdown <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                <p style="font-family: Inter; font-weight: 500; padding-right: 3%">a simple and configurable homelab dashboard, made to be simple and intuitive.</p>
+                <a href="https://github.com/sleepybaby898/lockdown"><button>source code <i class="fa-solid fa-code iconcode"></i></button></a>
+            </div>
+            <div class="card">
+                <h3>cosmicost/checklist</h3>
+                <a style="font-family: Inter; font-weight: 500" href="https://github.com/cosmicost/checklist">github.com/checklist <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                <p style="font-family: Inter; font-weight: 500; padding-right: 3%">a minimal and clean self-hosted checklist, easy-to-use and not overengineered.</p>
+                <a href="https://github.com/cosmicost/checklist"><button>source code <i class="fa-solid fa-code iconcode"></i><span></span></button></a>
+            </div>
+            <div class="card">
+                <h3>sleepybaby898/sleepybaby898.github.io</h3>
+                <a style="font-family: Inter; font-weight: 500" href="https://github.com/sleepybaby898/sleepybaby898.github.io">github.com/sleepybaby898.github.io <i class="fa-solid fa-arrow-up-right-from-square icon"></i></a>
+                <p style="font-family: Inter; font-weight: 500; padding-right: 3%">this very website! written in pure html and css and as minimal as possible.</p>
+                <a href="https://github.com/sleepybaby898/sleepybaby898.github.io"><button>source code <i class="fa-solid fa-code iconcode"></i></button></a>
+            </div>
         </div>
-        <div id="menu-background-pattern"></div>
-    </div>
+    </main>
 </body>
+<script src="./js/index.js"></script>
 </html>
