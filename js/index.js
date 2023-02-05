@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'i like to play games, and write unreliable code.';
+var txt = "i make software that you don't need, and write code that you don't want.";
 var speed = 50;
 
 
@@ -50,5 +50,5 @@ function typeWriter() {
   }
 }
 
-typeWriter();
+setTimeout(typeWriter, 1000);
 
