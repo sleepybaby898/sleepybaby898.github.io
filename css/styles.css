@@ -7,14 +7,18 @@
     --primary-font: Inter, sans-serif;
     --secondary-font: "Space Mono", monospace;
     --text-secondary-color: #8c8ca8;
-    --purple: rgb(123, 31, 162);
-    --violet: rgb(103, 58, 183);
-    --pink: rgb(244, 143, 177);
+    --purple: #7b1fa2;
+    --violet: #673ab7;
+    --pink: #f48fb1;
     --bg-color: #010005;
     --text-color: #f9f9f9;
-    --accent-color: #7899d4;
+    --accent-color: #673ab7;
     --seperator-color: rgb(17, 18, 38);
     --secondary-bg: #272727;
+}
+
+html {
+    cursor: none;
 }
 
 body {
@@ -56,12 +60,24 @@ button {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 10px;
-    cursor: pointer;
     transition: .4s;
+    cursor: none;
 }
 
 button:hover {
     transform: scale(1.1);
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 2;
 }
 
 .icon {
@@ -76,7 +92,7 @@ button:hover {
 #cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 16px;
     width: calc(100% = 20px);
 }
 
