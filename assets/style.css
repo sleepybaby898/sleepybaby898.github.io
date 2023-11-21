@@ -1,0 +1,66 @@
+::selection {
+    background-color: #151515;
+    color: #7899d4;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: #151515;
+    font-size: 1.8rem;
+    line-height: 1.618;
+    max-width: 38em;
+    margin: auto;
+    color: #d9d8dc;
+    padding: 13px;
+}
+
+blockquote {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    padding-right: 0.8em;
+    border-left: 5px solid #7899d4;
+    margin-bottom: 2.5rem;
+    background-color: #2c2b2b;
+  }
+
+li {
+    word-wrap: break-word;
+}
+
+br,
+img {
+    user-select: none;
+}
+
+a {
+    color: #7899d4;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #29364c;
+}
+
+a:visited {
+    color: #7899d4;
+}
+
+a:visited:hover {
+    color: #29364c;
+}
