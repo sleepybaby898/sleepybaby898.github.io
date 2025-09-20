@@ -1,75 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>sleepy</title>
-        <meta property="description" content="im the SIGMA">
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>joseph's site</title>
+        <meta name="description" content="loser"/>
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="preconnect" href="https://unpkg.com" />
-        <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Nunito&amp;display=swap"
-        />
-        <link
-        rel="stylesheet"
-        href="https://unpkg.com/@csstools/normalize.css"
-        />
-
-        <link rel="stylesheet" href="./assets/style.css" />
-        <link rel="stylesheet" href="./assets/stinky.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <script type="text/javascript" src="assets/lastfm.js"></script>
     </head>
     <body>
-        <section id="header">
-            <h1>sleepy</h1>
-            <blockquote>lebrooon james</blockquote>
-        </section>
+        <header class="header">
+            <div style="display:flex; align-items:center; gap:14px; margin-top:12px;">
+                <div class="pfp" aria-hidden="true">
+                    <img src="assets/shinji.webp" alt="profile picture">
+                </div>
+                <div>
+                    <h2 class="title">hi, i'm <span>joseph</span></h2>
+                    <p class="sub">i like to program sometimes</p>
+                </div>
+        </div>
+        </header>
+        <main>
+            <hr class="separator">
+            <section class="section">
+                <h3>Projects</h3>
+                <div class="grid" role="list">
+                    <div class="project" role="listitem">
+                        <h4>imp</h4>
+                        <p>half-finished c interpreter. <a class="hyperlink" href="https://github.com/sleepybaby898/imp">Source</a></p>
+                    </div>
 
-        <section id="about">
-            <h4>about</h4>
-            <div>
-                - personal projects @
-                <a href="https://github.com/sleepybaby898">github</a>
-            </div>
-            <div>
-                - my work @
-                <a href="https://github.com/sleepybaby898/python-chatserver">python chatserver</a>
-                |
-                <a href="https://github.com/sleepybaby898/lockdown">lockdown</a>
-                |
-                <a href="https://github.com/sleepybaby898/unholy-c">unholy c</a>
-                |
-                <a href="https://github.com/sleepybaby898/imp">imp</a>
-            </div>
-            <div>
-                - i love c
-            </div>
-        </section>
+                    <div class="project" role="listitem">
+                        <h4>joseph.bar</h4>
+                        <p>this poorly made site. <a class="hyperlink" href="https://github.com/sleepybaby898/sleepybaby898.github.io">Source</a></p>
+                    </div>
 
-        <br />
-        <hr />
-
-        <section id="snippets">
-            <h4>code snippets</h4>
-            <ul>
-                <li>
-                    soon to come
-                </li>
-            </ul>
-        </section>
-
-        <br />
-        <hr />
-
-        <footer>
-            <a href="https://github.com/sleepybaby898/sleepybaby898.github.io" style="font-size: 0.9rem">source</p>
-        </footer>
-        
-        <script>
-            console.log("👿 Things you need to know about me. 👿 I am the alpha of the pack. 🐺 Skidibi Toilet enthusiastic. 🚽 The matrix is after me. 🤫 I run alone. ❓ #1 sigma 🍷😎")
-        </script>
+                    <div class="project" role="listitem">
+                        <h4>my github</h4>
+                        <p>other projects on <a class="hyperlink" href="https://github.com/sleepybaby898">my github</a>.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <h3>Recently Listened</h3>
+                <div class="grid" id="lastfm-grid">
+    
+                </div>
+            </section>
+            <section class="section">
+                <h3 >Contacts</h3>
+                <div class="contacts" role="list">
+                    <a class="contact" href="https://github.com/sleepybaby898"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg"></a>
+                    <a class="contact" href="https://discord.com/users/543692940573278208"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/discord.svg"></a>
+                    <a class="contact" href="https://www.last.fm/user/j0seph_09"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/lastdotfm.svg"></a>
+                </div>
+            </section>
+        </main>
 
     </body>
 </html>
