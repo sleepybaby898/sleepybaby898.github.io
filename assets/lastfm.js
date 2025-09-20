@@ -12,7 +12,7 @@ fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${use
         const trackName = track.name.length > 27 ? track.name.substring(0, 27) + '...' : track.name
         
         const a = document.createElement('a')
-        a.className = 'project'
+        a.className = 'trackn'
         a.href = track.url
         a.target = '_blank'
 
