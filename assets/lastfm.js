@@ -1,6 +1,6 @@
 const username = "j0seph_09"
 const apikey = "67e2f6711d17eadaeeff57b75e7c0019" // probably should hide it but i dont gaf
-const limit = 5 // num of tracks to get
+const limit = 6 // num of tracks to get
 
 fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apikey}&format=json&limit=${limit}`)
   .then(response => response.json())
